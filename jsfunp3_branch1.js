@@ -24,11 +24,11 @@ function ninjaConstructor(name){
 		4: 'black belt'
 	};
 
-	return {ninja: ninja, belts: belts};
+	return ninja;
 }
 
 
-player1 = ninjaConstructor('David')
+player1 = ninjaConstructor('David');
+console.log(player1);
 player1.ninja.levelup();
-console.log(player1.ninja.belt)
-console.log(player1.ninja.beltname)
+console.log(player1);
